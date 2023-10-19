@@ -110,7 +110,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: rgb(255, 0, 119);
+  background-color: rgb(31, 29, 30);
 }
 
 .overlay-mf {
@@ -240,13 +240,17 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px rgb(255, 0, 119);
   transition: all 500ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(255, 0, 119);
 }
 
 .socials .ico-circle:hover {
   background-color: rgb(255, 0, 119);
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
+  transform:translateY(-10px);
+  transition: 0.5s;
 }
 
 /*------/ Ul resect /------*/
@@ -280,7 +284,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px rgb(255, 0, 119);
+  box-shadow: 0 0 0 10px rgb(220, 175, 196);
   display: block;
 }
 
@@ -408,30 +412,7 @@ a:hover {
 }
 
 /*------/ Button /------*/
-.button {
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  font-size: 1rem;
-  border-radius: 0.3rem;
-  border: 1px solid transparent;
-  transition: all 500ms ease;
-  cursor: pointer;
-}
 
-.button:focus {
-  outline: 0;
-}
-
-.button:hover {
-  background-color: rgb(255, 0, 119);
-  color: #fff;
-  transition: all 500ms ease;
-}
 
 .button-a {
   text-decoration: none;
@@ -1456,7 +1437,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: rgb(255, 0, 119);
+  background: rgb(0, 0, 0);
 }
 
 footer .copyright {
@@ -1470,3 +1451,10 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+
